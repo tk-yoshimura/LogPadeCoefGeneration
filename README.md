@@ -1,7 +1,7 @@
 # LogPadeCoefGeneration
 
 ## Coefs
-[Coefs](results)
+[results](results)
 
 ## See Also
 [PadeApproximation](https://github.com/tk-yoshimura/PadeApproximation)
