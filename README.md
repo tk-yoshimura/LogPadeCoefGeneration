@@ -1,6 +1,6 @@
 # LogPadeCoefGeneration
 
-Padé approximation coeficients generation for log function.  
+Padé approximation coefficients generation for log function.  
 ![logpade_result_44](figures/logpade_result_44.svg)
 
 ## Definition
@@ -23,7 +23,8 @@ Each additional 1 term to the numerator denominator, improves the decimal 1.531 
 The *x* and relative accuracy are as follows:  
 ![logpade_error_terms](figures/logpade_error_terms.svg)
 
-## Coefs
+## Coefficients
+The computation time for the coefficients is O(*n*<sup>4</sup>).  
 [results](results)
 
 ## See Also
