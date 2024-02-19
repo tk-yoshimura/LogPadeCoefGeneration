@@ -5,10 +5,14 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogPadeCoefGeneration", "LogPadeCoefGeneration\LogPadeCoefGeneration.csproj", "{18FEDAAF-866F-457F-A3B5-0B93F3E8FA93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogPadeCoefGenerationTests", "LogPadeCoefGenerationTests\LogPadeCoefGenerationTests.csproj", "{D2553C7C-EAB3-4BE7-AFD9-E42095F8C936}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogPadeCoefGenerationTests", "LogPadeCoefGenerationTests\LogPadeCoefGenerationTests.csproj", "{D2553C7C-EAB3-4BE7-AFD9-E42095F8C936}"
 	ProjectSection(ProjectDependencies) = postProject
 		{18FEDAAF-866F-457F-A3B5-0B93F3E8FA93} = {18FEDAAF-866F-457F-A3B5-0B93F3E8FA93}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvalPadeApprox", "EvalPadeApprox\EvalPadeApprox.csproj", "{56BE69D0-7F9D-4BFA-A362-CAAAE81F1BFD}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "VisPadeApproxError", "VisPadeApproxError\VisPadeApproxError.pyproj", "{A18E9CDB-E084-4295-B665-4BCB7DA8805A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +28,12 @@ Global
 		{D2553C7C-EAB3-4BE7-AFD9-E42095F8C936}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2553C7C-EAB3-4BE7-AFD9-E42095F8C936}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2553C7C-EAB3-4BE7-AFD9-E42095F8C936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56BE69D0-7F9D-4BFA-A362-CAAAE81F1BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56BE69D0-7F9D-4BFA-A362-CAAAE81F1BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56BE69D0-7F9D-4BFA-A362-CAAAE81F1BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56BE69D0-7F9D-4BFA-A362-CAAAE81F1BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A18E9CDB-E084-4295-B665-4BCB7DA8805A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A18E9CDB-E084-4295-B665-4BCB7DA8805A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

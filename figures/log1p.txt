@@ -1,0 +1,15 @@
+\begin{align*}
+    \mathrm{log1p}(x)=\log(1+x)
+\end{align*}
+
+\begin{align*}
+    f(x)=\frac{\log(1+x)}{x}
+\end{align*}
+
+\begin{align*}
+    \log(x)=(x-1) f(x-1)
+\end{align*}
+
+\begin{align*}
+    _{[4, 4]}f(x)=\frac{420+510 x + 140 x^2 + 3 x^3}{420 + 720 x + 360 x^2 + 48 x^3}
+\end{align*}

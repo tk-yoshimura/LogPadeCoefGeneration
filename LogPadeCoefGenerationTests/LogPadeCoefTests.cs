@@ -132,6 +132,24 @@ namespace LogPadeCoefGenerationTests {
         }
 
         [TestMethod()]
+        public void N24Plot() {
+            const int n = 24;
+
+            BigInteger[] actual = LogPadeCoef.GenerateCoef(n);
+
+            StreamWriter sw = new($"../../../../results/logpadecoef_{n}.txt");
+
+            foreach (BigInteger c in actual) {
+                Console.WriteLine(c);
+                sw.WriteLine(c);
+            }
+
+            sw.WriteLine("eof");
+
+            sw.Close();
+        }
+
+        [TestMethod()]
         public void N32Plot() {
             const int n = 32;
 
@@ -206,6 +224,24 @@ namespace LogPadeCoefGenerationTests {
         [TestMethod()]
         public void N512Plot() {
             const int n = 512;
+
+            BigInteger[] actual = LogPadeCoef.GenerateCoef(n);
+
+            StreamWriter sw = new($"../../../../results/logpadecoef_{n}.txt");
+
+            foreach (BigInteger c in actual) {
+                Console.WriteLine(c);
+                sw.WriteLine(c);
+            }
+
+            sw.WriteLine("eof");
+
+            sw.Close();
+        }
+
+        [TestMethod()]
+        public void N1024Plot() {
+            const int n = 1024;
 
             BigInteger[] actual = LogPadeCoef.GenerateCoef(n);
 
